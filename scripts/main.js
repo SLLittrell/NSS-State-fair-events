@@ -2,6 +2,7 @@
 
 import {TicketBooth} from './TicketBooth.js'
 import "../scripts/rides/RideTicketHolders.js"
+import "../scripts/food/FoodTicketHolder.js"
 //Ticketbooth event call
 TicketBooth()
 
