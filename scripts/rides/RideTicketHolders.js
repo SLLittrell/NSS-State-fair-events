@@ -5,7 +5,7 @@ const eventHub = document.querySelector("#state-fair")
     eventHub.addEventListener("rideTicketPurchased", customEvent => {
         if(customEvent.detail.purchasedTicket === "Ticket") {
 
-            // console.log("heard")
+            console.log("heard")
             contentTarget.innerHTML +=`<div class="person rider"></div>`
         }
     })
