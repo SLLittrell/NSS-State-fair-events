@@ -5,6 +5,7 @@ import "../scripts/rides/RideTicketHolders.js"
 import "../scripts/food/FoodTicketHolder.js"
 import "../scripts/games/GameTicketHolder.js"
 import "./sideshows/SideshowTicketHolder.js"
+import "./package/FullPackageTicketHolder.js"
 //Ticketbooth event call
 TicketBooth()
 
